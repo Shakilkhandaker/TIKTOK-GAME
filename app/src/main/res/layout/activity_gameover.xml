@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".gameover">
+
+    <TextView
+        android:id="@+id/wish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Congratulations !!!"
+        android:textSize="24dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#A8A8A8"
+        />
+    <TextView
+        android:id="@+id/resultinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="You have scored "
+        android:textSize="14dp"
+        android:textAlignment="center"
+        android:textColor="#4CAF50"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/resultinfo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:text="who"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:gravity="center_horizontal" />
+    <Button
+        android:id="@+id/restart"
+        android:text="RESTART GAME"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape2"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+    <Button
+        android:id="@+id/exit"
+        android:text="EXIT GAME"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape2"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+</LinearLayout>
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:gravity="center"-->
+<!--    android:orientation="vertical"-->
+<!--    tools:context=".MainActivity">-->
+<!--    <TextView-->
+<!--        android:id="@+id/gameover"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="30sp"-->
+<!--        android:text="Game Over"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/reseltlable"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="150"-->
+<!--        android:textSize="30sp"-->
+<!--        />-->
+<!--    <TextView-->
+<!--        android:id="@+id/highscorelable"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="High Score : 150 "-->
+<!--        android:textSize="20sp"-->
+<!--        />-->
+<!--    <Button-->
+<!--        android:id="@+id/restartlable"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Try Again"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:textAllCaps="false"/>-->
